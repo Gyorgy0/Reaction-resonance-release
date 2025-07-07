@@ -17,13 +17,14 @@
     }
 </style>
   <script type="module">
-    import init from './Reaction-resonance-eframe.js'
+    import init from './reaction-resonance-eframe_bg.js'
 
     init().catch((error) => {
       if (!error.message.startsWith("Using exceptions for control flow, don't mind me. This isn't actually an error!")) {
         throw error;
       }
     });
+	glcanvas.request
   </script>
   <canvas id = "glcanvas"></canvas>
 </body>
