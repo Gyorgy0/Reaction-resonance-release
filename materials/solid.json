@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Wood",
+        "density": 2.0,
+        "phase": "Solid",
+        "material_type": "Fuel",
+        "durability": 40,
+        "color": [
+            212,
+            176,
+            130,
+            255
+        ]
+    },
+    {
+        "name": "Void",
+        "density": 2.0,
+        "phase": "Solid",
+        "material_type": "Atmosphere",
+        "durability": 40,
+        "color": [
+            0,
+            0,
+            0,
+            100
+        ]
+    }
+]
