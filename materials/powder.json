@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Sand",
+        "density": 1.682,
+        "phase": {
+            "Powder": {
+                "coarseness": 0.1
+            }
+        },
+        "material_type": "Ceramic",
+        "durability": 50,
+        "color": [
+            201,
+            189,
+            145,
+            255
+        ]
+    },
+    {
+        "name": "Lycopodium",
+        "density": 0.45,
+        "phase": {
+            "Powder": {
+                "coarseness": 0.0003
+            }
+        },
+        "material_type": "Fuel",
+        "durability": 50,
+        "color": [
+            201,
+            189,
+            245,
+            255
+        ]
+    }
+]
