@@ -14,10 +14,10 @@
     },
     {
         "name": "Void",
-        "density": 2.0,
+        "density": 0.0,
         "phase": "Void",
         "material_type": "Atmosphere",
-        "durability": 40,
+        "durability": -1,
         "color": [
             0,
             0,
