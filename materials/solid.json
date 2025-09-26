@@ -4,7 +4,7 @@
         "density": 2.0,
         "phase": {
             "Solid": {
-                "melting_point": 3.40282347E+38
+                "melting_point": -1.0
             }
         },
         "material_type": "Fuel",

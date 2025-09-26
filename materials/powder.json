@@ -23,7 +23,7 @@
         "phase": {
             "Powder": {
                 "coarseness": 0.1,
-                "melting_point": -1
+                "melting_point": -1.0
             }
         },
         "material_type": "RGB",
@@ -41,7 +41,7 @@
         "phase": {
             "Powder": {
                 "coarseness": 0.0003,
-                "melting_point": -1
+                "melting_point": -1.0
             }
         },
         "material_type": "Fuel",
