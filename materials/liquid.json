@@ -4,7 +4,8 @@
         "density": 1.0,
         "phase": {
             "Liquid": {
-                "viscosity": 1.0
+                "viscosity": 1.0,
+                "boiling_point": 373.15
             }
         },
         "material_type": "Solvent",
@@ -21,7 +22,8 @@
         "density": 1.033,
         "phase": {
             "Liquid": {
-                "viscosity": 2.5
+                "viscosity": 2.5,
+                "boiling_point": 373.15
             }
         },
         "material_type": "Solution",
@@ -38,7 +40,8 @@
         "density": 1.5,
         "phase": {
             "Liquid": {
-                "viscosity": 10000.0
+                "viscosity": 10000.0,
+                "boiling_point":373.15
             }
         },
         "material_type": "Solution",

@@ -1,10 +1,11 @@
 [
     {
         "name": "Sand",
-        "density": 1.682,
+        "density": 1.5,
         "phase": {
             "Powder": {
-                "coarseness": 0.1
+                "coarseness": 0.1,
+                "melting_point": 1850.15
             }
         },
         "material_type": "Ceramic",
@@ -17,19 +18,38 @@
         ]
     },
     {
+        "name": "Rainbow sand",
+        "density": 1.5,
+        "phase": {
+            "Powder": {
+                "coarseness": 0.1,
+                "melting_point": -1
+            }
+        },
+        "material_type": "RGB",
+        "durability": 50,
+        "color": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
         "name": "Lycopodium",
         "density": 0.45,
         "phase": {
             "Powder": {
-                "coarseness": 0.0003
+                "coarseness": 0.0003,
+                "melting_point": -1
             }
         },
         "material_type": "Fuel",
         "durability": 50,
         "color": [
-            201,
-            189,
-            245,
+            232,
+            203,
+            137,
             255
         ]
     }

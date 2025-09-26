@@ -2,7 +2,9 @@
     {
         "name": "Methane",
         "density": 0.657,
-        "phase": "Gas",
+        "phase": {
+            "Gas": {}
+        },
         "material_type": "Fuel",
         "durability": -1,
         "color": [

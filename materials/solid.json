@@ -2,7 +2,11 @@
     {
         "name": "Wood",
         "density": 2.0,
-        "phase": "Solid",
+        "phase": {
+            "Solid": {
+                "melting_point": 3.40282347E+38
+            }
+        },
         "material_type": "Fuel",
         "durability": 40,
         "color": [
