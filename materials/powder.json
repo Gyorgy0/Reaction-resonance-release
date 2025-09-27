@@ -18,15 +18,15 @@
         ]
     },
     {
-        "name": "Rainbow sand",
+        "name": "Colorful sand",
         "density": 1.5,
         "phase": {
             "Powder": {
                 "coarseness": 0.1,
-                "melting_point": -1.0
+                "melting_point": 1850.15
             }
         },
-        "material_type": "RGB",
+        "material_type": "Rgb",
         "durability": 50,
         "color": [
             0,
