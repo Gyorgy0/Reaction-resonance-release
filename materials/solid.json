@@ -9,24 +9,36 @@
         },
         "material_type": "Fuel",
         "durability": 40,
-        "color": [
-            112,
-            86,
-            75,
-            255
-        ]
+        "material_color": {
+            "color": [
+                112,
+                86,
+                75,
+                255
+            ],
+            "shinyness": {
+                "start": 0.8,
+                "end": 1.0
+            }
+        }
     },
     {
-        "name": "Void",
-        "density": 0.0,
-        "phase": "Void",
-        "material_type": "Atmosphere",
-        "durability": -1,
-        "color": [
-            0,
-            0,
-            0,
-            100
-        ]
+  "name": "VOID",
+  "density": 0.0,
+  "phase": "Void",
+  "material_type": "Atmosphere",
+  "durability": -1,
+  "material_color": {
+    "color": [
+      0,
+      0,
+      0,
+      100
+    ],
+    "shinyness": {
+      "start": 1.0,
+      "end": 1.0
     }
+  }
+}
 ]

@@ -10,12 +10,18 @@
         },
         "material_type": "Solvent",
         "durability": 50,
-        "color": [
-            0,
-            120,
-            242,
-            255
-        ]
+        "material_color": {
+            "color": [
+                0,
+                120,
+                242,
+                255
+            ],
+            "shinyness": {
+                "start": 1.2,
+                "end": 1.6
+            }
+        }
     },
     {
         "name": "Milk",
@@ -28,12 +34,18 @@
         },
         "material_type": "Solution",
         "durability": 50,
-        "color": [
-            255,
-            255,
-            255,
-            255
-        ]
+        "material_color": {
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "shinyness": {
+                "start": 1.2,
+                "end": 1.8
+            }
+        }
     },
     {
         "name": "Honey",
@@ -41,16 +53,22 @@
         "phase": {
             "Liquid": {
                 "viscosity": 10000.0,
-                "boiling_point":373.15
+                "boiling_point": 373.15
             }
         },
         "material_type": "Solution",
         "durability": 50,
-        "color": [
-            235,
-            188,
-            78,
-            255
-        ]
+        "material_color": {
+            "color": [
+                235,
+                188,
+                78,
+                255
+            ],
+            "shinyness": {
+                "start": 1.3,
+                "end": 1.8
+            }
+        }
     }
 ]

@@ -9,11 +9,17 @@
         },
         "material_type": "Atmosphere",
         "durability": 50,
-        "color": [
-            255,
-            160,
-            0,
-            255
-        ]
+        "material_color": {
+            "color": [
+                255,
+                160,
+                0,
+                255
+            ],
+            "shinyness": {
+                "start": 0.99,
+                "end": 1.9
+            }
+        }
     }
 ]
