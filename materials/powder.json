@@ -29,17 +29,10 @@
         "phase": {
             "Powder": {
                 "coarseness": 0.1,
-<<<<<<< HEAD
                 "melting_point": -1.0
             }
         },
         "material_type": "Decor",
-=======
-                "melting_point": 1850.15
-            }
-        },
-        "material_type": "Rgb",
->>>>>>> refs/remotes/origin/master
         "durability": 50,
         "material_color": {
             "color": [
