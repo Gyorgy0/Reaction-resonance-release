@@ -1,7 +1,7 @@
 [
   {
     "name": "Wood",
-    "density": 0.0,
+    "density": 2.0,
     "phase": {
       "Solid": {
         "melting_point": -1.0
