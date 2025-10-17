@@ -23,6 +23,33 @@
     }
   },
   {
+    "name": "Cloner",
+    "density": 0.0,
+    "phase": {
+      "Solid": {
+        "melting_point": -1.0
+      }
+    },
+    "material_type": {
+      "Cloner": {
+        "cloned_material": null
+      }
+    },
+    "durability": -1,
+    "material_color": {
+      "color": [
+        83,
+        104,
+        120,
+        255
+      ],
+      "shinyness": {
+        "start": 0.99,
+        "end": 1.0
+      }
+    }
+  },
+  {
     "name": "Sink",
     "density": 0.0,
     "phase": {
