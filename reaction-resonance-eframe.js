@@ -312,11 +312,11 @@ function __wbg_adapter_10(arg0, arg1) {
     }
 }
 
-function __wbg_adapter_13(arg0, arg1, arg2) {
+function __wbg_adapter_15(arg0, arg1, arg2) {
     wasm.closure106_externref_shim(arg0, arg1, arg2);
 }
 
-function __wbg_adapter_30(arg0, arg1, arg2) {
+function __wbg_adapter_22(arg0, arg1, arg2) {
     wasm.closure293_externref_shim(arg0, arg1, arg2);
 }
 
@@ -1684,7 +1684,7 @@ function __wbg_get_imports() {
     };
     imports.wbg.__wbindgen_cast_010ad90159163b50 = function(arg0, arg1) {
         // Cast intrinsic for `Closure(Closure { dtor_idx: 105, function: Function { arguments: [NamedExternref("Array<any>")], shim_idx: 106, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
-        const ret = makeMutClosure(arg0, arg1, 105, __wbg_adapter_13);
+        const ret = makeMutClosure(arg0, arg1, 105, __wbg_adapter_15);
         return ret;
     };
     imports.wbg.__wbindgen_cast_2241b6af4c4b2941 = function(arg0, arg1) {
@@ -1694,7 +1694,7 @@ function __wbg_get_imports() {
     };
     imports.wbg.__wbindgen_cast_52db8efac9e5598a = function(arg0, arg1) {
         // Cast intrinsic for `Closure(Closure { dtor_idx: 292, function: Function { arguments: [Externref], shim_idx: 293, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
-        const ret = makeMutClosure(arg0, arg1, 292, __wbg_adapter_30);
+        const ret = makeMutClosure(arg0, arg1, 292, __wbg_adapter_22);
         return ret;
     };
     imports.wbg.__wbindgen_cast_7c316abdc43840a3 = function(arg0, arg1) {
@@ -1704,7 +1704,7 @@ function __wbg_get_imports() {
     };
     imports.wbg.__wbindgen_cast_8eca2c3c2e92f384 = function(arg0, arg1) {
         // Cast intrinsic for `Closure(Closure { dtor_idx: 105, function: Function { arguments: [NamedExternref("Event")], shim_idx: 106, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
-        const ret = makeMutClosure(arg0, arg1, 105, __wbg_adapter_13);
+        const ret = makeMutClosure(arg0, arg1, 105, __wbg_adapter_15);
         return ret;
     };
     imports.wbg.__wbindgen_cast_9575fb55a66c262b = function(arg0, arg1) {
