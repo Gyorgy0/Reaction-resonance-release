@@ -1,25 +1,24 @@
 [
-    {
-        "name": "Fire",
-        "density": 0.657,
-        "phase": {
-            "Plasma": {
-                "energy": 70.0
-            }
-        },
-        "material_type": "Atmosphere",
-        "durability": 50,
-        "material_color": {
-            "color": [
-                255,
-                160,
-                0,
-                255
-            ],
-            "shinyness": {
-                "start": 0.99,
-                "end": 1.9
+    [
+        "Fire",
+        {
+            "id": 7,
+            "density": 0.657,
+            "phase": "Plasma",
+            "material_type": "Fuel",
+            "durability": 50,
+            "material_color": {
+                "color": [
+                    255,
+                    160,
+                    0,
+                    255
+                ],
+                "shinyness": [
+                    0.99,
+                    1.9
+                ]
             }
         }
-    }
+    ]
 ]

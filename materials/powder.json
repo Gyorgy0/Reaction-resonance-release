@@ -1,74 +1,83 @@
 [
-    {
-        "name": "Sand",
-        "density": 1.5,
-        "phase": {
-            "Powder": {
-                "coarseness": 0.1,
-                "melting_point": 1850.15
-            }
-        },
-        "material_type": "Ceramic",
-        "durability": 50,
-        "material_color": {
-            "color": [
-                201,
-                189,
-                145,
-                255
-            ],
-            "shinyness": {
-                "start": 1.2,
-                "end": 1.9
-            }
-        }
-    },
-    {
-        "name": "Colorful sand",
-        "density": 1.5,
-        "phase": {
-            "Powder": {
-                "coarseness": 0.1,
-                "melting_point": -1.0
-            }
-        },
-        "material_type": "Decor",
-        "durability": 50,
-        "material_color": {
-            "color": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "shinyness": {
-                "start": 1.2,
-                "end": 1.9
+    [
+        "Sand",
+        {
+            "id": 4,
+            "density": 1.5,
+            "phase": {
+                "Powder": {
+                    "coarseness": 0.1,
+                    "melting_point": 1850.15
+                }
+            },
+            "material_type": "Ceramic",
+            "durability": 50,
+            "material_color": {
+                "color": [
+                    201,
+                    189,
+                    145,
+                    255
+                ],
+                "shinyness": [
+                    1.2,
+                    1.9
+                ]
             }
         }
-    },
-    {
-        "name": "Lycopodium",
-        "density": 0.45,
-        "phase": {
-            "Powder": {
-                "coarseness": 0.0003,
-                "melting_point": -1.0
-            }
-        },
-        "material_type": "Fuel",
-        "durability": 50,
-        "material_color": {
-            "color": [
-                232,
-                203,
-                137,
-                255
-            ],
-            "shinyness": {
-                "start": 0.9,
-                "end": 1.1
+    ],
+    [
+        "Colorful sand",
+        {
+            "id": 5,
+            "density": 1.5,
+            "phase": {
+                "Powder": {
+                    "coarseness": 0.1,
+                    "melting_point": -1.0
+                }
+            },
+            "material_type": "Decor",
+            "durability": 50,
+            "material_color": {
+                "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "shinyness": [
+                    1.2,
+                    1.9
+                ]
             }
         }
-    }
+    ],
+    [
+        "Lycopodium",
+        {
+            "id": 6,
+            "density": 0.45,
+            "phase": {
+                "Powder": {
+                    "coarseness": 0.0003,
+                    "melting_point": -1.0
+                }
+            },
+            "material_type": "Fuel",
+            "durability": 50,
+            "material_color": {
+                "color": [
+                    232,
+                    203,
+                    137,
+                    255
+                ],
+                "shinyness": [
+                    0.9,
+                    1.1
+                ]
+            }
+        }
+    ]
 ]

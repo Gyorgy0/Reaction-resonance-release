@@ -1,23 +1,28 @@
 [
-    {
-        "name": "Methane",
-        "density": 0.657,
-        "phase": {
-            "Gas": {}
-        },
-        "material_type": "Fuel",
-        "durability": -1,
-        "material_color": {
-            "color": [
-            252,
-            250,
-            0,
-            255
-        ],
-            "shinyness": {
-                "start": 0.9,
-                "end": 1.1
+    [
+        "Methane",
+        {
+            "id": 11,
+            "density": 0.657,
+            "phase": {
+                "Gas": {
+                    "boiling_point": 111.66
+                }
+            },
+            "material_type": "Fuel",
+            "durability": -1,
+            "material_color": {
+                "color": [
+                    252,
+                    250,
+                    0,
+                    255
+                ],
+                "shinyness": [
+                    0.9,
+                    1.1
+                ]
             }
         }
-    }
+    ]
 ]
