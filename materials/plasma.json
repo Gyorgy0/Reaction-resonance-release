@@ -1,11 +1,14 @@
 [
     [
-        "Fire",
+        "PLASMA::FIRE",
         {
             "id": 7,
-            "density": 0.657,
+            "density": 0.00008988,
             "phase": "Plasma",
-            "material_type": "Fuel",
+            "material_type": "Solution",
+            "initial_temperature": 1673.15,
+            "heat_capacity": 1.0,
+            "heat_conductivity": 1.0,
             "durability": 50,
             "material_color": {
                 "color": [
