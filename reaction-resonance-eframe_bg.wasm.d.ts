@@ -1,20 +1,14 @@
 /* tslint:disable */
 /* eslint-disable */
 export const main: (a: number, b: number) => number;
-export const __wbg_wbg_rayon_poolbuilder_free: (a: number, b: number) => void;
-export const initThreadPool: (a: number) => number;
-export const wbg_rayon_poolbuilder_build: (a: number) => void;
-export const wbg_rayon_poolbuilder_numThreads: (a: number) => number;
-export const wbg_rayon_poolbuilder_receiver: (a: number) => number;
-export const wbg_rayon_start_worker: (a: number) => void;
-export const __wasm_bindgen_func_elem_10732: (a: number, b: number, c: number, d: number) => void;
-export const __wasm_bindgen_func_elem_10739: (a: number, b: number, c: number, d: number) => void;
-export const __wasm_bindgen_func_elem_10729: (a: number, b: number, c: number) => void;
-export const __wasm_bindgen_func_elem_1153: (a: number, b: number, c: number) => void;
-export const __wasm_bindgen_func_elem_2892: (a: number, b: number, c: number) => void;
-export const __wasm_bindgen_func_elem_2892_4: (a: number, b: number, c: number) => void;
-export const __wasm_bindgen_func_elem_2892_5: (a: number, b: number, c: number) => void;
-export const __wasm_bindgen_func_elem_2891: (a: number, b: number, c: number) => void;
+export const __wasm_bindgen_func_elem_10635: (a: number, b: number, c: number, d: number) => void;
+export const __wasm_bindgen_func_elem_10642: (a: number, b: number, c: number, d: number) => void;
+export const __wasm_bindgen_func_elem_10632: (a: number, b: number, c: number) => void;
+export const __wasm_bindgen_func_elem_1078: (a: number, b: number, c: number) => void;
+export const __wasm_bindgen_func_elem_2821: (a: number, b: number, c: number) => void;
+export const __wasm_bindgen_func_elem_2821_4: (a: number, b: number, c: number) => void;
+export const __wasm_bindgen_func_elem_2821_5: (a: number, b: number, c: number) => void;
+export const __wasm_bindgen_func_elem_2820: (a: number, b: number, c: number) => void;
 export const memory: WebAssembly.Memory;
 export const __wbindgen_export: (a: number, b: number) => number;
 export const __wbindgen_export2: (a: number, b: number, c: number, d: number) => number;
